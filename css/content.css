@@ -1,0 +1,149 @@
+.content {
+    padding: 20px;
+    display: flex;
+    
+    
+}
+.left__content {
+    
+}
+
+.contact__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.img__content {
+    width: 600px;
+    
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    height: 500px;
+}
+
+.name__offer {
+    margin-left: 20px;
+}
+
+.right__content {
+    
+    
+    
+    
+}
+
+.info__content {
+    
+    margin: 10px;
+}
+
+.info__offer {
+   
+    margin-bottom: 40px;
+}
+
+.raz {
+    margin: 30px;
+}
+
+.offer__btn {
+    margin-left: 60px;
+    margin-top: 80px;
+    background: rgb(203, 203, 222);
+    border-radius: 8px;
+    width: 300px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 9px;
+}
+
+.offer__btn:hover {
+    padding: 9px;
+    border-radius: 8px;
+    background-color:black;
+    font-weight: 400;
+    
+    color:white;
+}
+
+.description { 
+    margin-top: 50px;
+    width: 600px;
+    height: 200px;
+    
+    
+}
+
+.opisan {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130%;
+    flex-grow: 1;
+    margin-bottom: 4px;
+}
+
+.offer__text {
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    flex-grow: 1;
+    margin-bottom: 4px;
+    margin-top: 15px;
+}
+
+.contact__offer {
+    width: 200px;
+    height: 75px;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+   
+    background: linear-gradient(180deg, #dcdcdc 0%, rgba(235,235,235, 0.00) 100%);
+}
+
+.btn__contact_offer {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.next {
+    margin-left: 47%;
+    margin-top: 50px;
+    
+
+    
+}
+
+.next__btn {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+}
+
+.next__btn:hover {
+    background-color:white;
+    font-weight: 400;
+    color:black;
+}
+
+.catalog_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}

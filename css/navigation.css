@@ -1,0 +1,56 @@
+.navigation {
+    
+    
+    margin-top: 30px;
+}
+
+.navigation__container {
+    display: flex;
+    align-items: center;
+    padding-left: 50vh;
+    min-width: 100vw;
+}
+
+.navigation__list {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 calc(100vw / 2 - vra(--container) / 2);
+    column-gap: 8px;
+}
+
+.navigation__button {
+    width: 100px;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: 400;
+    color: white;
+}
+
+.navigation__button:hover {
+    background-color:white;
+    font-weight: 400;
+    color:black;
+}
+
+.kategorii__link {
+    display: flex;
+    align-items: center;
+    margin-left: 33vh;
+    column-gap: 30px;
+    
+}
+
+.kategorii {
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.all:hover {
+    color: white;
+    
+    
+    
+}
+

@@ -1,0 +1,14 @@
+@import 'normalize.css';
+@import 'fonts.css';
+@import 'default.css';
+@import 'header.css';
+@import 'navigation.css';
+@import 'catalog.css';
+@import 'product.css';
+@import 'content.css';
+@import 'footer.css';
+@import 'product_form.css';
+@import 'slide.css';
+@import 'register.css';
+@import 'login.css';
+@import 'main.css';

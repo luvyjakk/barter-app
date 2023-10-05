@@ -1,0 +1,90 @@
+
+.product__form {
+
+    margin-bottom: 40px;
+   
+}
+
+.lot {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.ob {
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.button__form_add {
+    margin-left: ;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ 
+    
+}
+
+
+
+.form_add_btn {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 13px; 
+}
+
+.form_add_btn:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 700;
+    
+    color:white;
+}
+
+.add__name {
+    margin-left: 43%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right__content {
+    
+}
+
+.foto__add {
+    margin: 20px;
+}
+
+.info__add {
+    margin: 20px;
+}
+
+.name__product {
+    margin: 20px;
+}
+
+.kategoriya__product {
+    margin: 20px;
+}
+
+.opisanie {
+    margin: 20px;
+}
+
+.sostoyanie {
+    margin: 20px;
+}
+
+.city {
+    margin: 20px;
+}
+
+.pric {
+    margin: 20px;
+}

@@ -1,0 +1,71 @@
+.login__add {
+    width: 380px;
+    height: 300px;
+    background: linear-gradient(180deg, #c0c5ff 0%, rgba(235,235,235, 0.00) 100%);
+    border-radius: 15px;
+    margin-left: 36%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.login__form {
+    border-bottom: 1px solid black;
+}
+
+.reg_label {
+    font-weight: 700;
+    font-size: 25px;
+}
+.log {
+    margin-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.mail_login {
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.login__reg {
+    margin: 20px;
+    margin-left: 40px;
+}
+
+.button__login_add {
+    margin: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+
+.login_add_btn {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.login_add_btn:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 700;
+    
+    color:white;
+}
+
+.login_foget {
+    
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
