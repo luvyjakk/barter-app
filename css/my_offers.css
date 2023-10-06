@@ -1,0 +1,45 @@
+.add_my_offer {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 13px;
+    
+}
+
+.add_my_offer:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 700;
+    
+    color:white;
+}
+
+.button_add_offer {
+    display: flex;
+    align-items: center;
+    margin-left: 39%;
+    
+}
+
+.edit_btn {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.edit_btn:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    
+    color:white;
+}

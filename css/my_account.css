@@ -1,0 +1,97 @@
+.photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.account_info {
+    display: flex;
+    
+    
+   
+}
+
+.add_photo {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 100px;
+    
+}
+
+.add_photo:hover {
+    padding: 5px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    
+    color:white;
+}
+
+.user_info {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    
+}
+
+.username_static {
+    margin: 20px;
+}
+
+.password_static {
+    margin: 20px;
+}
+
+.tell_static {
+    margin: 20px;
+}
+
+.acc__add {
+    margin-left: 50px;
+}
+
+.username__acc {
+    margin: 20px;
+    margin-top: 0;
+}
+
+.password__acc {
+    margin: 20px
+}
+
+.password__acc_reapit {
+    margin: 20px
+}
+
+.tell_acc {
+    margin: 20px
+}
+
+.button__acc {
+    margin: 20px
+}
+
+.acc_btn {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 220px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.acc_btn:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    
+    color:white;
+}
