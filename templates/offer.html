@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nazvanie</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/js/photosliders.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -47,7 +51,16 @@
     <div class="container">
         <main class="content">
             <div class="left__content">
-                <img class="img__content" src="/img/e17190e4-bc0d-4f6a-8071-fe9091c1d41f.jpg" alt="">
+               <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img class="" src="/img/0a15f43d-a25f-4284-8271-ef024d973e0e.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="" src="/img/336b4eae8d-77d5-4a98-adcb-8f733261b50c.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="" src="/img/e17190e4-bc0d-4f6a-8071-fe9091c1d41f.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="" src="/img/e17190e4-bc0d-4f6a-8071-fe9091c1d41f.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+               </div>
+               
                 <div class="description">
                     <h4 class="opisan">Описание</h4>
                     <p class="offer__text">Работают отлично, зарядку держат часа 2. Рассматриваю обмен на
@@ -111,13 +124,13 @@
     <footer>
         <div class="container">
             <div class="sale"></div>
+<div class="footer__info">
+    <p>2023</p>
+</div>
+</div>
+</footer>
 
-
-            <div class="footer__info">
-                <p>2023</p>
-            </div>
-        </div>
-    </footer>
+<script src="/js/photosliders.js"></script>
 </body>
 
 </html>

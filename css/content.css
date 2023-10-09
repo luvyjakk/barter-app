@@ -5,7 +5,7 @@
     
 }
 .left__content {
-    
+    margin: 0;
 }
 
 .contact__img {
@@ -146,4 +146,35 @@
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+.swiper {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 45% !important;
+    left: auto;
+    padding-top: 150px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 70px !important;
+    right: auto;
 }

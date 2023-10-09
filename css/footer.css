@@ -3,11 +3,9 @@
 }
 
 .footer__info {
-    display: flex;
-    align-items: center;
-    margin-top: 50px;
-    margin-left:  50%;
-    
+    float: none;
+    text-align: center;
+    margin: 30px;
 }
 
 .sale {
