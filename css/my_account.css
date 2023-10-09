@@ -185,9 +185,15 @@
     font-size: 12px;
     line-height: 100%;
     padding: 10px;
-    margin: 10px;
-    
-    
+    margin: 10px;  
+}
+
+.username_edit:hover {
+    padding: 10px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
 }
 
 .password_edit {
@@ -198,8 +204,15 @@
     font-size: 12px;
     line-height: 100%;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px;   
+}
+
+.password_edit:hover {
+    padding: 10px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
 }
 
 .tell_edit {
@@ -210,8 +223,15 @@
     font-size: 12px;
     line-height: 100%;
     padding: 10px;
-    margin: 10px;
-   
+    margin: 10px;  
+}
+
+.tell_edit:hover {
+    padding: 10px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
 }
 
 .email_edit {
@@ -222,8 +242,15 @@
     font-size: 12px;
     line-height: 100%;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px;  
+}
+
+.email_edit:hover {
+    padding: 10px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
 }
 
 .popup form {
