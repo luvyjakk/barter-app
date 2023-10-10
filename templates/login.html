@@ -43,7 +43,7 @@
                 <form class="login__form" action="#" method="post" enctype="multipart/form-data">
                     <div class="mail_login">
                         <p>E-mail</p>
-                        <input class="" type="email" required>
+                        <input class="" type="email" required  minlength="1" maxlength="30">
                     </div>
                     <div class="login__reg">
                         <p>Пароль</p>
@@ -68,6 +68,12 @@
                 </div>
             </div>
         </div>
+       
+        <div class="popup-bg11">
+            <div class="popup_add">
+                    <p>Пароль введен неправильно, повторите еще раз!</p>
+            </div>
+        </div>
 
     </main>
     <footer>
@@ -81,7 +87,9 @@
         </div>
     </footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="/js/login.js"></script>
+<script src="jquery.min.js"></script>
 </body>
 
 </html>

@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -39,74 +42,102 @@
 
     </header>
     <div class="container">
-        <h2 class="catalog_title">Мой аккаунт
+        <h2 class="edit_title">Редактирование лота
         </h2>
         <main class="account_info">
-            <div class="account_photo"><img class="photo" src="/img/336b4eae8d-77d5-4a98-adcb-8f733261b50c.jpg" alt="">
-                <button class="add_photo">Сменить фотографию</button>
-            </div>
+            <div class="left__content">
+                <div class="swiper mySwiper">
+                 <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img class="" src="/img/0a15f43d-a25f-4284-8271-ef024d973e0e.jpg" alt=""></div>
+                     <div class="swiper-slide"><img class="" src="/img/336b4eae8d-77d5-4a98-adcb-8f733261b50c.jpg" alt=""></div>
+                     <div class="swiper-slide"><img class="" src="/img/e17190e4-bc0d-4f6a-8071-fe9091c1d41f.jpg" alt=""></div>
+                     <div class="swiper-slide"><img class="" src="/img/e17190e4-bc0d-4f6a-8071-fe9091c1d41f.jpg" alt=""></div>
+                 </div>
+                 <div class="swiper-pagination"></div>
+                </div>
+                <div class="photo_static_edit">
+                    <p><button class="photo_edit">Изменить фотографии</button></p>
+                </div>
+                
+                 <div class="description">
+                     <h4 class="opisan">Описание</h4>
+                     <p class="offer__text">Работают отлично, зарядку держат часа 2. Рассматриваю обмен на
+                         электросамокат, либо же предлагайте свои варианты!
+                     </p>
+                     <div class="description_static">
+                        <p><button class="description_edit">Изменить описание</button></p>
+                    </div>
+                 </div>
+ 
+             </div>
             <div class="user_info">
                 <div class="username_static">
-                    <p>Имя: Евгений <button class="username_edit">Изменить</button></p>
-                    
+                    <p>Название: Air Dods 2 <button class="name_edit">Изменить</button></p>
                 </div>
                 <div class="password_static">
-                    <p>Пароль: ****** <button class="password_edit">Изменить</button></p>
+                    <p>Категория: Электроника <button class="categories_edit">Изменить</button></p>
                 </div>
                 <div class="tell_static">
-                    <p>Телефон: 89991112233 <button class="tell_edit">Изменить</button></p>
-                </div> <div class="email_static">
-                    <p>Email: slonik_zloy@mail.ru <button class="email_edit">Изменить</button></p>
+                    <p>Цена: 6666 <button class="price_edit">Изменить</button></p>
                 </div>
+                <div class="delete">
+                    <button class="delete_btn">Удалить лот</button>
+                </div>   
             </div>
-            <div class="popup-bg">
+            <div class="popup-bg6">
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <input type="text" name="popup-form" placeholder="Новое имя"  minlength="1" maxlength="25" required>
+                        <input type="text" name="popup-form" placeholder="Новое название"  minlength="1" maxlength="30" required>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
             </div>
-            <div class="popup-bg1">
+            <div class="popup-bg7">
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <input type="password" name="popup-form" placeholder="Новый пароль"  minlength="1" maxlength="30" required>
-                        <input type="password" name="popup-form" placeholder="Повторите пароль"  minlength="1" maxlength="30" required>
+                        <li><select name="popup-form" id="">
+                            <option value="new">Электроника</option>
+                            <option value="old">Дом</option>
+                            <option value="old">Авто</option>
+                            <option value="old">Одежда</option>
+                            <option value="old">Другое</option>
+                        </select></li>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
             </div>
-            <div class="popup-bg2">
+            <div class="popup-bg8">
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <input type="text" name="popup-form" placeholder="Новый телеофн"  minlength="11" maxlength="12" pattern="\+?[0-9\s\-\(\)]+" required>
+                        <input type="text" name="popup-form" placeholder="Новая цена" pattern="^[0-9]+$" minlength="1" maxlength="25" required>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
             </div>
-            <div class="popup-bg3">
+            <div class="popup-bg9">
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <input type="email" name="popup-form" placeholder="Новый email"  minlength="1" maxlength="30" required>
+                        <p>Сменить фотографии</p>
+                        <input type="file" name="popup-form" multiple placeholder=>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
             </div>
-            <div class="popup-bg4">
+            <div class="popup-bg10">
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <p>Сменить фотографию</p>
-                        <input type="file" name="popup-form" placeholder=>
+                        <p>Сменить описание</p>
+                         <textarea name="" id="" cols="30" rows="10"  minlength="1" maxlength="200" required></textarea>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
             </div>
-         
+          
         </main>
     </div>
 
@@ -126,6 +157,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="/js/my_account.js"></script>
 <script src="jquery.min.js"></script>
+<script src="/js/photosliders.js"></script>
+<script src="/js/idit_offer.js"></script>
+
 </body>
 
 </html

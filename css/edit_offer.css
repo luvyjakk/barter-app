@@ -1,0 +1,205 @@
+.edit_title {
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.name_edit {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.name_edit:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
+
+.categories_edit {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.categories_edit:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
+
+.price_edit:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
+
+.price_edit {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.photo_edit:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
+
+.photo_edit {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+    
+}
+
+.description_edit:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
+.description_edit {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.photo_static_edit {
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+.description_static {
+    margin-left: 250px;
+}
+
+.popup-bg6 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.popup-bg7 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.popup-bg8 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.popup-bg9 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.popup-bg10 {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    background: white;
+    padding: 20px;
+    transform: translate(-50%,-50%);
+    padding-top: 60px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.delete {
+    padding: 25px;
+    
+}
+
+.delete_btn {
+    background: rgb(203, 203, 222);
+    border-radius: 15px;
+    width: 350px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    padding: 13px;
+}
+
+.delete_btn:hover {
+    padding: 13px;
+    border-radius: 15px;
+    background-color:black;
+    font-weight: 400;
+    color:white;
+}
