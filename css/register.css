@@ -89,3 +89,67 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000000;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus~label, .input-group input:valid~label {
+    top: 0;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+}
+
+
+.input-group button {
+    border: 1.2px solid #fff;
+    border-radius: 5px;
+    width: 320px;
+    height: 40px;
+    transition: 0.5s;
+
+}
+
+.input-group button:hover {
+    border: 1.2px solid #000000;
+    
+}
+
+.login-container p {
+    margin: 20px;
+    color: white;
+    font-weight: 400;
+}
