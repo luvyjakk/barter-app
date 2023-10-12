@@ -37,14 +37,13 @@
 .kategorii__link {
     display: flex;
     align-items: center;
-    margin-left: 33vh;
     column-gap: 30px;
     
 }
 
 .kategorii {
-    border-bottom: 1px solid black;
-    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .all:hover {

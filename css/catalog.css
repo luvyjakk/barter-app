@@ -16,5 +16,5 @@
     align-items: center;
     justify-content: space-between;
     grid-template-columns: repeat(auto-fit, 200px);
-    gap: 10px;
+    gap: 25px;
 }

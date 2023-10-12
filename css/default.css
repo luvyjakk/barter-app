@@ -1,4 +1,5 @@
 html {
+    
     box-sizing: border-box;
     background: linear-gradient(180deg, #CADBEB 0%, rgba(235,235,235, 0.00) 100%);
 }
@@ -7,7 +8,7 @@ html {
 }
 
 body {
-    font-family: Inter, sans-serif;
+    font-family: 'Raleway', sans-serif;
     min-width: 320px;
     min-height: 100vh;
     
@@ -69,6 +70,7 @@ fieldset {
     max-width: calc(var(--container) + var(--padding-container) * 2);
     padding: 0 var(--padding-container);
     margin: 0 auto;
+   
 }
 
 @media (min-width: 480px) {

@@ -1,8 +1,7 @@
 .content {
-    padding: 20px;
     display: flex;
-    
-    
+    justify-content: center;
+
 }
 .left__content {
     margin: 0;
@@ -116,8 +115,9 @@
 }
 
 .next {
-    margin-left: 47%;
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
     
 
     

@@ -1,7 +1,8 @@
 
 .product__form {
 
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
    
 }
 
@@ -48,7 +49,8 @@
 }
 
 .add__name {
-    margin-left: 43%;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
