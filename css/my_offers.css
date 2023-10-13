@@ -33,11 +33,12 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
-    padding: 13px;
+    padding: 5px;
+    
 }
 
 .edit_btn:hover {
-    padding: 13px;
+    padding: 5px;
     border-radius: 15px;
     background-color:black;
     font-weight: 400;

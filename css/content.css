@@ -149,7 +149,7 @@
 }
 
 .swiper {
-    width: 500px;
+    width: 550px;
     height: 500px;
     border-radius: 15px;
 }
@@ -169,12 +169,14 @@
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: 45% !important;
-    left: auto;
-    padding-top: 150px;
+    align-self: flex-end;
+    color: white;
+    
+   
+   
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: 70px !important;
-    right: auto;
+    align-self: flex-start;
 }
+

@@ -32,6 +32,7 @@
     background-color:white;
     font-weight: 400;
     color:black;
+    
 }
 
 .kategorii__link {
@@ -39,15 +40,18 @@
     align-items: center;
     column-gap: 30px;
     
+    
 }
 
 .kategorii {
     display: flex;
     justify-content: center;
+    
 }
 
 .all:hover {
     color: white;
+    
     
     
     
