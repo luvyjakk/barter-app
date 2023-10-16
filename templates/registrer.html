@@ -35,39 +35,45 @@
 
 
     </header>
+<form action="#" class="register__form" method="post" enctype="multipart/form-data">
 
-<form action="#">
-    
-<div class="login-container">
-    <p class="logo5">Register</p>
-    
-    <div class="input-group">
-        <input type="text" required>
-        <label for="">Username</label>
-    </div>
-    <div class="input-group">
-        <input type="password" required>
-        <label for="">Password</label>
-    </div>
-    <div class="input-group">
-        <input type="password" required>
-        <label for="">Repeat password</label>
-    </div>
-    <div class="input-group">
-        <input type="email" required>
-        <label for="">E-mail</label>
-    </div>
-    <div class="input-group">
-        <input type="tel" required>
-        <label for="">Telephone</label>
-    </div>
-    <div class="input-group1">
-        <div class="asd" id="a">
-        <button class="register_add_btn">Register</button>
-    </div>
-    </div>
-</div>
-</form>  
+    <div class="login-container">
+        <p class="logo5">Register</p>
+
+        <div class="input-group">
+            <input type="text" required minlength="1" maxlength="30">
+            <label for="">Username</label>
+        </div>
+        <div class="input-group">
+            <input type="password" required inputmode="numeric" minlength="1" maxlength="30">
+            <label for="">Password</label>
+        </div>
+        <div class="input-group">
+            <input type="password" required inputmode="numeric" minlength="1" maxlength="30">
+            <label for="">Repeat password</label>
+        </div>
+        <div class="input-group">
+            <input type="email" required minlength="1" maxlength="30">
+            <label for="">E-mail</label>
+        </div>
+        <div class="input-group">
+            <input type="tel" required minlength="11" maxlength="12" pattern="\+?[0-9\s\-\(\)]+">
+            <label for="">Telephone</label>
+        </div>
+        <div class="input-group1">
+
+            <button class="register_add_btn" type="submit">Register</button>
+        </div>
+        <div class="login_foget">
+            <a href="">
+                <p>Регистрация</p>
+            </a>
+            <a href="">
+                <p>Забыл пароль</p>
+            </a>
+        </div>
+    </div> 
+</form>
 
 
   <!--  <main class="register">

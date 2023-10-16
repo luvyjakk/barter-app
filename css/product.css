@@ -25,7 +25,7 @@
 .product__image {
     width: 210px;
     height: 275px;
-    object-fit: inherit;
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
 }

@@ -1,5 +1,7 @@
 .header {
     font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, #767676 0%, rgba(235,235,235, 0.00) 100%);
+    
     
 }
 
@@ -13,8 +15,8 @@
     border-radius: 30px;
     background-color: black;
     font-weight: 700;
-    
     color: white;
+    transition: 0.2s;
 }
 
 .menu__btn:hover {
@@ -22,7 +24,6 @@
     border-radius: 30px;
     background-color: white;
     font-weight: 700;
-    
     color:black;
 }
 
@@ -69,14 +70,13 @@
     display: flex;
     align-items: center;
     column-gap: 25px;
-    font-weight: 700;
-    
-    
+    font-weight: 600;
+
 }
 
 .menu__item:hover {
-   color: rgb(255, 255, 255);
-   border-bottom: 2px solid black;
+   color: rgb(0, 0, 0);
+   border-bottom: 1.75px solid black;
    
    
    
@@ -109,3 +109,4 @@
     color: #827f8e;
     margin-bottom: 7px;
 }
+
