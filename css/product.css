@@ -7,7 +7,7 @@
     height: 375px;
     width: 215px;
     transition: 0.33s;
-    background: linear-gradient(180deg, #6c8397 0%, rgba(254, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, #9f9f9f 0%, rgba(254, 0, 0, 0) 100%);
     
     
 }
@@ -19,7 +19,7 @@
 
 .product:hover {
     box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .75);
-    background: linear-gradient(180deg, #cacaca 0%, rgba(254, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, #d5d4d4 0%, rgba(254, 0, 0, 0) 100%);
    
 }
 .product__image {
@@ -35,6 +35,9 @@
     font-size: 16px;
     line-height: 100%;
     margin-bottom: 4px;
+    display: -webkit-box;
+    overflow: hidden;
+    
 }
 
 .product__title {

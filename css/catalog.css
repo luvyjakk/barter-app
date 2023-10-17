@@ -14,7 +14,7 @@
 .catalog__list {
     display: grid;
     align-items: center;
-    justify-content: space-between;
+   
     grid-template-columns: repeat(auto-fit, 200px);
-    gap: 25px;
+    gap: 20px;
 }
