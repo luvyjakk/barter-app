@@ -52,3 +52,10 @@ $ ('.close-popup').click(function() {
     $('.popup-bg4').fadeOut(600);
     
 });
+
+const image1 = document.querySelector(".photo-acc");
+const input1 = document.querySelector("input");
+
+input1.addEventListener('change', (e) => {
+    image1.src = URL.createObjectURL(e.target.files[0]);
+});

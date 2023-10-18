@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@500;700&family=Open+Sans&family=Raleway&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 
 </head>
@@ -98,13 +98,21 @@
                 <div class="popup">
                     <button class="close-popup">X</button>
                     <form action="">
-                        <li><select name="popup-form" id="">
-                            <option value="new">Электроника</option>
-                            <option value="old">Дом</option>
-                            <option value="old">Авто</option>
-                            <option value="old">Одежда</option>
-                            <option value="old">Другое</option>
-                        </select></li>
+                        <div class="select-container1">
+                            <select class="select-box1">
+                                <option selected disabled>Все</option>
+                                <option value="q">Личные вещи</option>
+                                <option value="w">Электроника</option>
+                                <option value="e">Дом</option>
+                                <option value="r">Хобби</option>
+                                <option value="r">Животные</option>
+                                <option value="r">Авто</option>
+                                <option value="r">Услуги</option>
+                            </select>
+                            <div class="icon-container1">
+                                <i class='bx bx-down-arrow-alt'></i>
+                            </div>
+                        </div>
                         <input type="submit" value="Сохранить">
                     </form>  
                 </div>
@@ -123,8 +131,27 @@
                     <button class="close-popup">X</button>
                     <form action="">
                         <p>Сменить фотографии</p>
-                        <input type="file" name="popup-form" multiple placeholder=>
-                        <input type="submit" value="Сохранить">
+                        <p>Максимальное количество фотографий 5</p>
+                        <div class="verification-main-input-div">
+                            <p class="verification-main-text"></p>
+                            <div id="row-of-product-photos" class="row-of-id-photos1">
+                              <div class="two1" id="addImgLabel1">
+                                <label for="addImg1" class="input-label inputLabelCss">
+                                  <div class="photosvg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                      class="feather feather-camera camera-icon">
+                                      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                                      <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+                                  </div>
+                                </label> <!-- ngIf: images.length<maxImagesForProduct -->
+                                <input id="addImg1" type="file" accept=".png, .jpg, .jpeg" style="display:none" multiple="">
+                              </div>
+                            </div>
+                          </div>
+                     <div id="im"></div>
+                        <input type="submit" value="Сохранить" class="savebtn">
                     </form>  
                 </div>
             </div>
@@ -133,8 +160,8 @@
                     <button class="close-popup">X</button>
                     <form action="">
                         <p>Сменить описание</p>
-                         <textarea name="" id="" cols="30" rows="10"  minlength="1" maxlength="200" required></textarea>
-                        <input type="submit" value="Сохранить">
+                         <textarea name="" id="" cols="30" rows="10"  minlength="1" maxlength="500" required class="opisanie1"></textarea>
+                        <input type="submit" value="Сохранить" class="savebtn">
                     </form>  
                 </div>
             </div>
@@ -149,6 +176,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/js/product_form.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="/js/my_account.js"></script>
 <script src="jquery.min.js"></script>

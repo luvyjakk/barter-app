@@ -6,12 +6,17 @@
 
 .account_info {
     display: flex;
-    
-    justify-content: center;
-    
-    
-   
+    justify-content: center; 
 }
+
+.account_photo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 .add_photo {
     background: rgb(203, 203, 222);
@@ -280,3 +285,21 @@
     overflow-y: hidden;
 }
 
+.photo-acc {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    justify-self: center;
+    object-fit: cover;
+}
+
+.abc {
+    display: none;
+}
+
+.label-acc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}

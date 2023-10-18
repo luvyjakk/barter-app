@@ -1,6 +1,7 @@
 .content {
     display: flex;
     justify-content: center;
+    margin: 50px;
 
 }
 .left__content {
@@ -23,7 +24,7 @@
 }
 
 .name__offer {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .right__content {
@@ -82,6 +83,7 @@
     line-height: 130%;
     flex-grow: 1;
     margin-bottom: 4px;
+    
 }
 
 .offer__text {

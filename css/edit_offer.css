@@ -171,6 +171,16 @@
     padding: 20px;
     transform: translate(-50%,-50%);
     padding-top: 60px;
+   
+}
+
+.two1 {
+    display: flex;
+    justify-content: center;
+}
+.row-of-id-photos1 {
+    width: 530px;
+   
 }
 
 .close-popup {
@@ -202,4 +212,8 @@
     background-color:black;
     font-weight: 400;
     color:white;
+}
+
+.savebtn {
+    margin: 20px;
 }
