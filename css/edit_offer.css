@@ -4,93 +4,77 @@
 }
 
 .name_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 21px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+   
+
 }
 
 .name_edit:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    
+   
+    
 }
 
 .categories_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 21px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
 }
 
 .categories_edit:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    
 }
 
 .price_edit:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    
 }
 
 .price_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 21px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
 }
 
 .photo_edit:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+   
 }
 
 .photo_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 21px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
     
 }
 
 .description_edit:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    
 }
 .description_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 21px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
 }
 
 .photo_static_edit {
@@ -197,21 +181,27 @@
 }
 
 .delete_btn {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 350px;
+    background: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: -0.022em;
+   
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
 }
 
 .delete_btn:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    background: #28282b;
 }
 
 .savebtn {

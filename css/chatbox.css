@@ -89,10 +89,11 @@ select {
 
 
 .chatbox {
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
+	margin-left: 50px;
 }
 
 .chatbox-message-wrapper {
@@ -100,7 +101,8 @@ select {
 	
 	bottom: calc(100% + 1rem);
 	right: 0;
-	width: 600px;
+	width: 50%;
+	
 	border-radius: .5rem;
 	overflow: hidden;
 	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .5);
@@ -207,13 +209,15 @@ select {
 	display: flex;
 	flex-direction: column;
 	grid-row-gap: 1rem;
-	max-height: 300px;
-    height: 300px;
+	
+    height: 50%;
 	overflow-y: auto;
 }
 .chatbox-message-item {
 	width: 90%;
 	padding: 1rem;
+	
+	
 }
 .chatbox-message-item.sent {
 	align-self: flex-end;

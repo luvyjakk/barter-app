@@ -14,20 +14,25 @@
 }
 
 .menu__btn {
-    padding: 15px 58px;
-    border-radius: 30px;
-    background-color: black;
-    font-weight: 700;
-    color: white;
-    transition: 0.2s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.17648;
+    font-weight: 400;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
 }
 
 .menu__btn:hover {
-    padding: 15px 58px;
-    border-radius: 30px;
-    background-color: white;
-    font-weight: 700;
-    color:black;
+    background: #197fe6;
 }
 
 .header__top {
@@ -77,13 +82,13 @@
 
 }
 
+.menu__item {
+    font-weight: 400;
+}
 .menu__item:hover {
    color: rgb(0, 0, 0);
    border-bottom: 1.75px solid black;
-   
-   
-   
-    
+
 }
 
 .header__title-container {
