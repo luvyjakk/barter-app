@@ -10,150 +10,144 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Open+Sans&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@500;700&family=Open+Sans&family=Raleway&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@500;700&family=Open+Sans&family=Raleway&family=Roboto+Mono&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__top">
-                <a href="#" class="">
-                    <p class="logo">Barter App</p>
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="index.html" class="menu__link">Каталог</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-                        <li class="menu__item"><a href="login.html" class="menu__link">Войти</a></li>
-                        <li class=""><button class="menu__btn">Регистрация</button></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-
-    </header>
-
-    <main class="product__form">
-        <div class="container">
-            <div class="info__product_add">
-                <div class="add__name">
-                    <h5 class="lot">
-                        Добавление лота
-                    </h5>
+    <div class="wrapper-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <a href="#" class="">
+                        <p class="logo">Barter App</p>
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="index.html" class="menu__link">Каталог</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+                            <li class="menu__item"><a href="login.html" class="menu__link">Войти</a></li>
+                            <li class=""><button class="menu__btn">Регистрация</button></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="product__containe">
-                    <form class="" action="#" method="post" enctype="multipart/form-data" >
-                        <div class="ob">
-                            <div class="left__content1">
-                              
-                                <div class="foto__add">
-                                    <p>Добавить фотографии</p>
-                                    <div class="verification-main-input-div">
-                                        <p class="verification-main-text">Добавить можно до 5 фотографий</p>
-                                        <div id="row-of-product-photos" class="row-of-id-photos">
-                                          <div class="two1" id="addImgLabel1">
-                                            <label for="addImg1" class="input-label inputLabelCss">
-                                              <div class="photosvg">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                  class="feather feather-camera camera-icon">
-                                                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                                                  <circle cx="12" cy="13" r="4"></circle>
-                                                </svg>
-                                              </div>
-                                            </label> <!-- ngIf: images.length<maxImagesForProduct -->
-                                            <input id="addImg1" type="file" accept=".png, .jpg, .jpeg" style="display:none" multiple="">
-                                          </div>
+            </div>
+        </header>
+        <main class="product__form">
+            <div class="container">
+                <div class="info__product_add">
+                    <div class="add__name">
+                        <h5 class="lot">
+                            Добавление лота
+                        </h5>
+                    </div>
+                    <div class="product__containe">
+                        <form class="" action="#" method="post" enctype="multipart/form-data">
+                            <div class="ob">
+                                <div class="right__content">
+                                    <div class="name__product">
+                                        <p>Название лота</p>
+                                        <input class="name-product1" type="text" minlength="1" maxlength="30" required>
+                                    </div>
+                                    <div class="kategoriya__product">
+                                        <p>Категория лота</p>
+                                        <select name="kategoriya" id="" required class="kategoriya1">
+                                            <option value="new">Электроника</option>
+                                            <option value="old">Дом</option>
+                                            <option value="old">Авто</option>
+                                            <option value="old">Одежда</option>
+                                            <option value="old">Другое</option>
+                                        </select>
+                                    </div>
+                                    <div class="sostoyanie">
+                                        <p>Состояние</p>
+                                        <select name="sostoyanie" id="" required class="sostoyanie1">
+                                            <option value="new">Новый</option>
+                                            <option value="old">Б/У</option>
+                                        </select>
+                                    </div>
+                                    <div class="city">
+                                        <p>Город</p>
+                                        <select name="city" id="" required class="city1">
+                                            <option value="new">Москва</option>
+                                            <option value="old">Тула</option>
+                                            <option value="old">Санкт-Петербург</option>
+                                            <option value="old">Люберцы</option>
+                                        </select>
+                                    </div>
+                                    <div class="pric">
+                                        <p>Цена</p>
+                                        <input class="price1" type="text" minlength="1" maxlength="30" required
+                                            pattern="^[0-9]+$">Руб.
+                                    </div>
+                                    <div class="foto__add">
+                                        <p>Добавить фотографии</p>
+                                        <div class="verification-main-input-div">
+                                            <p class="verification-main-text">Добавить можно до 5 фотографий</p>
+                                            <div id="row-of-product-photos" class="row-of-id-photos">
+                                                <div class="two1" id="addImgLabel1">
+                                                    <label for="addImg1" class="input-label inputLabelCss">
+                                                        <div class="photosvg">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-camera camera-icon">
+                                                                <path
+                                                                    d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+                                                                </path>
+                                                                <circle cx="12" cy="13" r="4"></circle>
+                                                            </svg>
+                                                        </div>
+                                                    </label> <!-- ngIf: images.length<maxImagesForProduct -->
+                                                    <input id="addImg1" type="file" accept=".png, .jpg, .jpeg"
+                                                        style="display:none" multiple="">
+                                                </div>
+                                            </div>
                                         </div>
-                                      </div>
-                                 <div id="im"></div>
-                                </div>
-
-                    
-                
-                                <div class="opisanie">
-                                    <p>Описание</p>
-                                    <textarea class="opisanie1" name="opisanie" id="" cols="30" rows="10"  minlength="1" maxlength="500" required></textarea>
+                                        <div id="im"></div>
+                                    </div>
+                                    <div class="opisanie">
+                                        <p>Описание</p>
+                                        <textarea class="opisanie1" name="opisanie" id="" cols="30" rows="10"
+                                            minlength="1" maxlength="500" required></textarea>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="right__content">
-                                <div class="name__product">
-                                    <p>Название лота</p>
-                                    <input class="name-product1" type="text"  minlength="1" maxlength="30" required>
-                                </div>
-                                <div class="kategoriya__product">
-                                    <p>Категория лота</p>
-                                    <select name="kategoriya" id="" required class="kategoriya1">
-                                        <option value="new">Электроника</option>
-                                        <option value="old">Дом</option>
-                                        <option value="old">Авто</option>
-                                        <option value="old">Одежда</option>
-                                        <option value="old">Другое</option>
-                                    </select>
-                                </div>
-                                <div class="sostoyanie">
-                                    <p>Состояние</p>
-                                    <select name="sostoyanie" id="" required class="sostoyanie1">
-                                        <option value="new">Новый</option>
-                                        <option value="old">Б/У</option>
-                                    </select>
-                                </div>
-                                <div class="city">
-                                    <p>Город</p>
-                                    <select name="city" id="" required class="city1">
-                                        <option value="new">Москва</option>
-                                        <option value="old">Тула</option>
-                                        <option value="old">Санкт-Петербург</option>
-                                        <option value="old">Люберцы</option>
-                                    </select>
-                                </div>
-                                <div class="pric">
-                                    <p>Цена</p>
-                                    <input class="price1" type="text"  minlength="1" maxlength="30" required pattern="^[0-9]+$">Руб.
-                                </div>
-                               
+                            <div class="button__form_add">
+                                <button class="form_add_btn" type="submit">Разместить</button>
                             </div>
-                           
-                        </div>
-                        <div class="button__form_add">
-                            <button class="form_add_btn" type="submit">Разместить</button>
-                        </div>
-                        <div class="popup-bg5">
-                            <div class="popup_add">
+                            <div class="popup-bg5">
+                                <div class="popup_add">
                                     <p>Лот успешно добавлен!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="popup-bg20">
-                            <div class="popup_add">
+                            <div class="popup-bg20">
+                                <div class="popup_add">
                                     <p>Можно загрузить до 5 фотографий</p>
+                                </div>
                             </div>
-                        </div>
-
-
-
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="sale"></div>
-
-
-            <div class="footer__info">
-                <p>2023</p>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="sale"></div>
+                <div class="footer__info">
+                    <p>2023</p>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="/js/product_form.js"></script>
-    <script src="/js/product.js"></script>
-    <script src="jquery.min.js"></script>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="/js/product_form.js"></script>
+        <script src="/js/product.js"></script>
+        <script src="jquery.min.js"></script>
+    </div>
 </body>
-
 </html>

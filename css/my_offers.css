@@ -27,21 +27,28 @@
 }
 
 .edit_btn {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100%;
-    font-weight: 400;
+    
+    
+    background: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
     font-size: 12px;
-    line-height: 100%;
-    padding: 5px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+   
+    width: 215px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
     
 }
 
 .edit_btn:hover {
-    padding: 5px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    
-    color:white;
+    background: #343438;
 }

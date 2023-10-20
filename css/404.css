@@ -1,5 +1,4 @@
-html {
-    
+html {  
     box-sizing: border-box;
     background: #F5f5f5
 }
@@ -11,7 +10,6 @@ body {
     font-family: 'Raleway', sans-serif;
     min-width: 320px;
     min-height: 100vh;
-    
     color: black;
 }
 

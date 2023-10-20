@@ -4,86 +4,125 @@
 }
 
 .name_edit {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
     cursor: pointer;
     color: #06c;
     letter-spacing: inherit;
-   
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.left__content1 {
+    width: 600px;
+    
+    
+ 
+}
+.username_static1 {
+    margin: 20 0 0 0;
 
 }
 
-.name_edit:hover {
+.password_static1 {
+    margin: 20 0 0 0;
+}
+
+.tell_static1 {
+    margin: 20 0 0 0;
+}
+
+.description1 {
+    margin: 20 0 0 0;
+}
+
+.description_static1 {
     
+}
+.name_edit:hover {
+    text-decoration: underline;
    
     
+}
+
+.offer__text1 {
+   width: 500px;
 }
 
 .categories_edit {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
     cursor: pointer;
     color: #06c;
     letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
 }
 
 .categories_edit:hover {
-    
+    text-decoration: underline;
 }
 
 .price_edit:hover {
-    
+    text-decoration: underline;
 }
 
 .price_edit {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
     cursor: pointer;
     color: #06c;
     letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .photo_edit:hover {
-   
+    text-decoration: underline;
 }
 
 .photo_edit {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
     cursor: pointer;
     color: #06c;
     letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     
 }
 
 .description_edit:hover {
-    
+    text-decoration: underline;
 }
 .description_edit {
-    font-size: 21px;
+    
+    font-size: 16px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
     cursor: pointer;
     color: #06c;
     letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .photo_static_edit {
-    margin-left: 250px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 .description_static {
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .popup-bg6 {
@@ -177,6 +216,8 @@
 
 .delete {
     padding: 25px;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -187,7 +228,7 @@
     display: inline-block;
     text-align: center;
     white-space: nowrap;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 1.17648;
     font-weight: 400;
     letter-spacing: -0.022em;
@@ -201,7 +242,7 @@
 }
 
 .delete_btn:hover {
-    background: #28282b;
+    background: #343438;
 }
 
 .savebtn {

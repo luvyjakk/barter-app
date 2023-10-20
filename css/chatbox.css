@@ -105,7 +105,7 @@ select {
 	
 	border-radius: .5rem;
 	overflow: hidden;
-	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .5);
+	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .1);
 	
 	
 }
@@ -209,13 +209,14 @@ select {
 	display: flex;
 	flex-direction: column;
 	grid-row-gap: 1rem;
-	
-    height: 50%;
+	word-wrap: break-word;
+    height: 50vh;
 	overflow-y: auto;
 }
 .chatbox-message-item {
 	width: 90%;
 	padding: 1rem;
+
 	
 	
 }

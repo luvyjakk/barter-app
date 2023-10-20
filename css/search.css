@@ -7,6 +7,7 @@
   display: inline-block;
   position: relative;
   border-radius: 2.5em;
+ 
   
  
   
@@ -20,7 +21,7 @@
   border: none;
   box-sizing: border-box;
   border-radius: 2.5em;
- 
+  cursor: pointer;
   transition: width 800ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 150ms;
 }
 .search-box input[type=text]:focus {

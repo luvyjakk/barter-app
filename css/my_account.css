@@ -9,10 +9,24 @@
     justify-content: center; 
 }
 
+.center {
+    display: grid;
+    justify-content: center;  
+}
+
 .account_photo {
     display: grid;
     align-items: center;
     justify-content: center;
+    row-gap: 20px;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(45deg,rgb(63, 70, 70),#0071e3)1;
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .25);
 }
 
 
@@ -92,22 +106,18 @@
 }
 
 .acc_btn {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 220px;
+    font-size: 16px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 13px;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .acc_btn:hover {
-    padding: 13px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    
-    color:white;
+    text-decoration: underline;
 }
 
 .popup-bg {
@@ -185,79 +195,63 @@
 }
 
 .username_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 16px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 10px;
-    margin: 10px;  
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; 
 }
 
 .username_edit:hover {
-    padding: 10px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    text-decoration: underline;
 }
 
 .password_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 16px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 10px;
-    margin: 10px;   
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;  
 }
 
 .password_edit:hover {
-    padding: 10px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    text-decoration: underline;
 }
 
 .tell_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 16px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 10px;
-    margin: 10px;  
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;  
 }
 
 .tell_edit:hover {
-    padding: 10px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    text-decoration: underline;
 }
 
 .email_edit {
-    background: rgb(203, 203, 222);
-    border-radius: 15px;
-    width: 100px;
+    font-size: 16px;
+    line-height: 1.381002381;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 100%;
-    padding: 10px;
-    margin: 10px;  
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;  
 }
 
 .email_edit:hover {
-    padding: 10px;
-    border-radius: 15px;
-    background-color:black;
-    font-weight: 400;
-    color:white;
+    text-decoration: underline;
 }
 
 .popup form {
@@ -291,6 +285,7 @@
     border-radius: 50%;
     justify-self: center;
     object-fit: cover;
+    
 }
 
 .abc {
@@ -301,5 +296,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    font-size: 16px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    cursor: pointer;
+    color: #06c;
+    letter-spacing: inherit;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.label-acc:hover {
+    text-decoration: underline;
 }
