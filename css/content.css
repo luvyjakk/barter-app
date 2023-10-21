@@ -167,6 +167,7 @@
     width: 600px;
     height: 500px;
     border-radius: 15px;
+    box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, .3);
 }
 
 .swiper-slide {

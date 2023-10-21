@@ -67,6 +67,10 @@
     color:white;
 }
 
+.login_foget p:hover {
+    color: rgb(0,102,204);
+}
+
 .login_foget {
     
     

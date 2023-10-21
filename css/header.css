@@ -77,17 +77,19 @@
 .menu__list {
     display: flex;
     align-items: center;
-    column-gap: 25px;
+    column-gap: 12px;
     font-weight: 600;
 
 }
 
 .menu__item {
     font-weight: 400;
+    transition: 0.75s;
+    font-size: 17px;
 }
 .menu__item:hover {
-   color: rgb(0, 0, 0);
-   border-bottom: 1.75px solid black;
+   color: #0071e3;
+  
 
 }
 

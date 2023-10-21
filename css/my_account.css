@@ -24,8 +24,8 @@
     margin-bottom: 50px;
     border-radius: 15px;
     border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient(45deg,rgb(63, 70, 70),#0071e3)1;
+    border: 3px solid #0071e3;
+   
     box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .25);
 }
 
@@ -62,17 +62,15 @@
 }
 
 .username_static {
-    margin: 20px;
+    margin: 10px 0 0 10px;
 }
 
 .password_static {
-    margin: 20px;
-    margin-right: 0px;
+    margin: 10px 0 0 10px;
 }
 
 .tell_static {
-    margin: 20px;
-    margin-right: 0px;
+    margin: 10px 0 0 10px;
 }
 
 .acc__add {
@@ -80,16 +78,16 @@
 }
 
 .username__acc {
-    margin: 20px;
+    margin: 10px 0 0 10px;
     margin-top: 0;
 }
 
 .password__acc {
-    margin: 20px
+    margin: 10px 0 0 10px;
 }
 
 .email_static {
-    margin: 20px;
+    margin: 10px 0 0 10px;
     margin-right: 0px;
 }
 
@@ -195,7 +193,7 @@
 }
 
 .username_edit {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
@@ -210,7 +208,7 @@
 }
 
 .password_edit {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
@@ -225,7 +223,7 @@
 }
 
 .tell_edit {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
@@ -240,7 +238,7 @@
 }
 
 .email_edit {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;
@@ -282,11 +280,14 @@
 .photo-acc {
     width: 250px;
     height: 250px;
+    
     border-radius: 50%;
     justify-self: center;
     object-fit: cover;
-    
+    box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, 0.6); 
 }
+
+
 
 .abc {
     display: none;
@@ -296,7 +297,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.381002381;
     font-weight: 400;
     letter-spacing: .011em;

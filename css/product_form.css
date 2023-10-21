@@ -5,10 +5,15 @@
     justify-content: center;
    
 }
+.verification-main-text {
+    font-weight: 400;
+    font-size: 12px;
+}
 
 .lot {
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 30px;
 }
 
 .ob {
@@ -18,8 +23,10 @@
     
 }
 
-.ob:hover {
-   
+
+.ob p {
+   font-size: 16px;
+   font-weight: 700;
 }
 
 .button__form_add {
@@ -99,11 +106,12 @@
 .price1 {
     padding: 5px;
     outline: none;
-	border: 1px solid black;
+    border: 2px solid #06c;
 	resize: none;
 	scrollbar-width: none;
     width: 550px;
-    
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
     
    
 }
@@ -111,49 +119,63 @@
 .city1 {
     padding: 4.1px;
     outline: none;
-	border: 1px solid black;
+    border: 2px solid #06c;
 	resize: none;
 	scrollbar-width: none;
     width: 550px;
-   
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
 }
 .sostoyanie1 {
     padding: 4.1px;
     outline: none;
-	border: 1px solid black;
+    border: 2px solid #06c;
 	resize: none;
 	scrollbar-width: none;
     width: 550px;
-   
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
 }
 .kategoriya1 {
     padding: 4.1px;
     outline: none;
-	border: 1px solid black;
+    border: 2px solid #06c;
 	resize: none;
 	scrollbar-width: none;
     width: 550px;
-    
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
 }
 .name-product1 {
     padding: 5px;
     outline: none;
-	border: 1px solid black;
 	resize: none;
+    border: 2px solid #06c;
 	scrollbar-width: none;
     width: 550px;
-    
-
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
 }
+
 .opisanie1 {
     padding: 5px;
     outline: none;
-	border: 1px solid black;
+    border: 2px solid rgb(0, 0, 0);
+	resize: none;
+	scrollbar-width: none;
+    height: 170px;
+    width: 700px;
+}
+.opisanie2 {
+    padding: 5px;
+    outline: none;
+    border: 2px solid #06c;
 	resize: none;
 	scrollbar-width: none;
     height: 170px;
     width: 550px;
-   
+    border-color: #06c;
+    border-radius: 0px 30px 30px 30px;
 }
 
 .sostoyanie {
@@ -204,6 +226,9 @@
     align-items: center;
 }
 
+.photosvg svg {
+    color: #06c;
+}
   .id-document{
     width: 90px;
     height: 90px;
