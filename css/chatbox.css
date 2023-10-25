@@ -89,11 +89,11 @@ select {
 
 
 .chatbox {
-    
-    align-items: center;
+    display: flex;
+    align-items: ;
     justify-content: center;
     padding-bottom: 50px;
-	margin-left: 50px;
+	column-gap:  25px;
 }
 
 .chatbox-message-wrapper {
@@ -101,8 +101,7 @@ select {
 	
 	bottom: calc(100% + 1rem);
 	right: 0;
-	width: 50%;
-	
+	width: 85vh;
 	border-radius: .5rem;
 	overflow: hidden;
 	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .1);
@@ -273,10 +272,191 @@ select {
 	text-align: center;
 }
 
+.chatbox-offers-img {
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	padding: 7px;
+
+	
+}
+
+.chatbox-message-content {
+	display: flex;
+
+}
 
 
 
+.chatbox-offers {
+	cursor: pointer;
+	word-wrap: break-word;
+	width: 35%;
+	height: 70%;
+	border-radius: 18px;
+	border-color: #06c;
+	border: 2px solid #06c;
+    border-radius: 0px 30px 30px 30px;
+	justify-content: center;
+	box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, .3);
+}
 
+
+
+.chatbox-offers1 {
+	cursor: pointer;
+	word-wrap: break-word;
+	width: 35%;
+	height: 70%;
+	border-radius: 18px;
+	border-color: #06c;
+	border: 2px solid #06c;
+    border-radius: 30px 30px 30px 30px;
+	justify-content: center;
+	box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, .3);
+}
+
+.chatbox-offers2 {
+	cursor: pointer;
+	word-wrap: break-word;
+	width: 35%;
+	height: 70%;
+	border-radius: 18px;
+	border-color: #06c;
+	border: 2px solid #06c;
+    border-radius: 30px 30px 30px 30px;
+	justify-content: center;
+	box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, .3);
+}
+
+.chatbox-offers3 {
+	cursor: pointer;
+	word-wrap: break-word;
+	height: 70%;
+	width: 35%;
+	border-radius: 18px;
+	border-color: #06c;
+	border: 2px solid #06c;
+    border-radius: 30px 0px 30px 30px;
+	justify-content: center;
+	box-shadow: .5rem .5rem 2rem rgba(0, 102, 204, .3);
+}
+
+.chatbox-offers h6 {
+	justify-content: center;
+	margin-top: 4px;
+	word-wrap: break-word;
+	font-size: 14px;
+	margin: 0 8px 0 8px;
+	
+	
+}
+
+.chatbox-offers1 h6 {
+	justify-content: center;
+	margin-top: 4px;
+	word-wrap: break-word;
+	font-size: 14px;
+	margin: 0 8px 0 8px;
+}
+
+.chatbox-offers2 h6 {
+	
+	justify-content: center;
+	margin-top: 4px;
+	word-wrap: break-word;
+	font-size: 14px;
+	margin: 0 8px 0 8px;
+}
+.chatbox-offers3 h6 {
+	justify-content: center;
+	margin-top: 4px;
+	word-wrap: break-word;
+	font-size: 14px;
+	margin: 0 8px 0 8px;
+}
+
+.chatbox-message-content-offers {
+	display: flex;
+	justify-content: space-between;
+}
+
+.chatbox-offers-text {
+	display: flex;
+	justify-content: center;
+}
+
+
+.chatbox-offers-time {
+	display: flex;
+	justify-content: center;
+}
+
+.chatbox-offers-button {
+	width: 30%;
+	
+}
+
+.chatbox-offers-accept {
+	background: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 10px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+	width: 95%;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+.chatbox-offers-accept:hover {
+	background: #06c;
+}
+
+.chatbox-offers-reject {
+	background: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 10px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+   
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+	width: 95%;
+	margin: 5px;
+	margin-top: 10px;
+}
+
+
+
+.chatbox-offers-reject:hover {
+	background: rgb(255, 57, 57);
+}
+
+.chatbox-offers-button p {
+	font-size: 15px;
+	font-weight: 700;
+}
 
 
 
